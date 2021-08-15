@@ -10,7 +10,9 @@ public class main {
         //
         int x;
         x = 6;
-
-        System.out.println(tim);
+        int y = 5;
+        double d = Math.pow(x, y);
+        double u = x / (double) y;
+        System.out.println(u);
     }
 }
