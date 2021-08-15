@@ -1,4 +1,6 @@
-public class main {
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
         // primitive
         int hello_world = 5;
@@ -14,5 +16,9 @@ public class main {
         double d = Math.pow(x, y);
         double u = x / (double) y;
         System.out.println(u);
+        // input
+        Scanner sc = new Scanner(System.in);
+        String scanned = sc.next();
+
     }
 }
