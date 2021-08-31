@@ -23,9 +23,13 @@ public class Main {
         // integer input
         Scanner sc2 = new Scanner(System.in);
         int scanned2 = sc2.nextInt();
-        //boolean
+        // boolean
         Scanner sc3 = new Scanner(System.in);
         boolean scanned3 = sc3.nextBoolean();
+        // similarly double, what we should do (typecasting)
+        Scanner sc4 = new Scanner(System.in);
+        String scanned4 = sc4.next();
+        int k = Integer.parseInt(scanned4);
 
     }
 }
