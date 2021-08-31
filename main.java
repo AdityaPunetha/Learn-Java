@@ -64,5 +64,19 @@ public class Main {
         } else {
             System.out.println("print");
         }
+        // arrays-----------------------------------------------------------------------------
+        int[] newArr = new int[5];
+        String[] stringArr = new String[5];
+        stringArr[0] = "hello";
+        stringArr[1] = "hello";
+        stringArr[2] = "hello";
+        int[] nums = { 2, 3, 56, 6, 6 };
+        // for
+        // loops-----------------------------------------------------------------------------
+        x = 0;
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+
     }
 }
