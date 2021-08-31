@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // primitive
-        // -----------------------------------------------------------------------------
+        // primitive -------------------------------------------------------------
         int hello_world = 5;
         double num2 = 5.0;
         boolean b1 = true;
@@ -21,15 +20,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String scanned = sc.next();
         System.out.println(scanned);
-        // integer
-        // input-----------------------------------------------------------------------------
+        // integer input------------------------------------------------------------
         Scanner sc2 = new Scanner(System.in);
         int scanned2 = sc2.nextInt();
         // boolean-----------------------------------------------------------------------------
         Scanner sc3 = new Scanner(System.in);
         boolean scanned3 = sc3.nextBoolean();
-        // similarly double, what we should do
-        // (typecasting)------------------------------------
+        // similarly double, what we should do (typecasting)-------------------
         Scanner sc4 = new Scanner(System.in);
         String scanned4 = sc4.next();
         int k = Integer.parseInt(scanned4);
@@ -39,8 +36,7 @@ public class Main {
         int z = 10;
         boolean compare = x < y;
         System.out.println(compare);
-        // compare
-        // strings-----------------------------------------------------------------------------
+        // compare strings ------------------------------------------------------------
         String a = "hello";
         String b = "h1";
         System.out.println(a.equals(b));
@@ -71,12 +67,10 @@ public class Main {
         stringArr[1] = "hello";
         stringArr[2] = "hello";
         int[] nums = { 2, 3, 56, 6, 6 };
-        // for
-        // loops-----------------------------------------------------------------------------
+        // for loops-----------------------------------------------------
         x = 0;
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
-
     }
 }
