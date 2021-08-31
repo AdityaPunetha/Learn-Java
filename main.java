@@ -12,13 +12,20 @@ public class Main {
         //
         int x;
         x = 6;
-        int y = 5;
-        double d = Math.pow(x, y);
+        // int y = 5;
+        // double d = Math.pow(x, y);
         double u = x / (double) y;
         System.out.println(u);
         // input
         Scanner sc = new Scanner(System.in);
         String scanned = sc.next();
+        System.out.println(scanned);
+        // integer input
+        Scanner sc2 = new Scanner(System.in);
+        int scanned2 = sc2.nextInt();
+        //boolean
+        Scanner sc3 = new Scanner(System.in);
+        boolean scanned3 = sc3.nextBoolean();
 
     }
 }
