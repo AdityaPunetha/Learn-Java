@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.lang.model.element.Element;
+
 public class Main {
     public static void main(String[] args) {
         // primitive -------------------------------------------------------------
@@ -72,5 +74,27 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
+        // length of array
+        x = nums.length;
+        // formatting
+        System.out.printf("%d x %d = %d \n", 1, 1, 4);
+        // for each loop --------------------------------------------------
+        for (String element : stringArr) {
+            System.out.println(element);
+        }
+        for (int element : nums) {
+            System.out.println(element);
+        }
+        // while loop --------------------------------------------------
+        while (scanned2 != 10) {
+            System.out.println(x);
+            scanned2++;
+        }
+        // do while loop --------------------------------------------------
+        x = 9;
+        do {
+            System.out.println(x);
+            x = 10;
+        } while (x != 10);
     }
 }
