@@ -43,6 +43,12 @@ public class Main {
         String b = "h1";
         System.out.println(a.equals(b));
         compare = a == b;
+        // next line---------------------------------------------------------------
+        // while (scanner.hasNext()) {
+        // String s = scanner.nextLine();
+        // System.out.println(count + " " + s);
+        // count += 1;
+        // }
         // and-----------------------------------------------------------------------------
         y = 23;
         compare = x > y && z < y;
